@@ -3,6 +3,6 @@ Designed and implemented a full-stack web application that allows users to track
 
 Implemented the back-end using Node.js to serve and modify data using route endpoints. Utilized MongoDB to store persistent workout data.
 
-Front-end implemented with React.js, Node.js, HTML, CSS
+Front-end implemented with: React.js, Node.js, HTML, CSS
 
-Back-end implemented with Express.js, Node.js, MongoDB, REST API
+Back-end implemented with: Express.js, Node.js, MongoDB, REST API
