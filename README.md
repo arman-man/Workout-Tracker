@@ -5,8 +5,8 @@ Front-end: React.js, HTML, CSS.
 
 Back-end: Express.js, Node.js, MongoDB, REST API.
 
-# Installation
+## Installation
 ```npm install``` in the root directory of the Restful-API and React-UI folders
 
-# Running
+## Running
 ```npm start``` in the root directory of the Restful-API and React-UI folders
