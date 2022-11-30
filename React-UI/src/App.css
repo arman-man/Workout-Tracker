@@ -1,0 +1,336 @@
+/*   ----- Imports  -----  */
+
+/* Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Solway);
+
+/* npm install modern-normalize */
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {
+    /* Can alternatively define in html {} or :root {} */
+    color: rgb(62, 62, 62);
+    background-image: url('body_bk_img.jpg');
+    background-size: cover;
+    font-family: 'Solway';
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----- Anchors ----- Text links */
+a {}
+
+a:link {}
+
+a:hover {}
+
+a:active {}
+
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+    background-color: #6610f2;
+    padding: 1.5em;
+    color: #F9F6EE;
+}
+
+nav a {
+    padding: 1.4em 1.8em 1.4em 1.8em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+nav a:first-child {
+    border-right: none;
+}
+
+nav a:hover {
+    background-color: #4992ff;
+    cursor: pointer;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+    font-size: 1.2em;
+    padding: 1em;
+    background-image: url("header_bk_img.jpg");
+    background-size: cover;
+}
+
+main {}
+
+section {}
+
+article {
+    padding: 1em 1em 1em 1em;
+    margin-bottom: 5.3em;
+
+}
+
+#topic1 {}
+
+#topic2 {}
+
+#gallery1 {}
+
+#gallery2 {}
+
+div {}
+
+aside {}
+
+footer {
+    padding: 1em;
+    background-color: rgb(234, 233, 233);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 3em;
+}
+
+/*  -----  Typography  ----- */
+p {}
+
+br {}
+
+ol,
+ul,
+dl {}
+
+li {}
+
+dt {}
+
+dd {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+/* Define consistant font family.*/
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+abbr {}
+
+acronym {}
+
+address {}
+
+blockquote {}
+
+q {}
+
+cite {}
+
+em {}
+
+hr {}
+
+mark {}
+
+s {}
+
+span {}
+
+strong {}
+
+sub {}
+
+sup {}
+
+time {}
+
+/*  ----- Coding or instructional typography ----- */
+pre {}
+
+code {}
+
+kbd {}
+
+samp {}
+
+var {}
+
+del {}
+
+ins {}
+
+/*  ----- Table ----- */
+table {
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+caption {
+    padding: 2em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+thead {}
+
+tbody {}
+
+tfoot {}
+
+tr {}
+
+tr:nth-child(even) {}
+
+th {
+    padding: 0 1em 1em 1em;
+    font-size: 1.1em;
+}
+
+td {
+    padding-bottom: 1em;
+    font-size: 0.95em;
+}
+
+td:nth-child(1) {}
+
+colgroup {}
+
+data {}
+
+datalist {}
+
+/*  ----- Form ----- */
+form {}
+
+fieldset {
+    margin-top: 2em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    font-size: 1em;
+    display: block;
+    margin-top: 0.5em;
+}
+
+button {
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+input {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+output {}
+
+meter {}
+
+progress {}
+
+
+select {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+optgroup {}
+
+option {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+textarea {}
+
+#unit {
+    cursor: pointer;
+
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+/* ----- Media ----- */
+figure {}
+
+figcaption {}
+
+img {}
+
+svg {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+picture {}
+
+source {}
+
+iframe {}
+
+video {}
+
+audio {}
+
+embed {}
+
+object {}
+
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.floatright {}
+
+.floatleft {}
+
+.center-middle {}
+
+.ten {}
+
+.twenty {}
+
+.thirty {}
+
+.forty {}
+
+.fifty {}
+
+.sixty {}
+
+.seventy {}
+
+.eighty {}
+
+.radius {}
+
+.circle {}
+
+.boxshadow {}
+
+.tshadow {}
+
+.gradient {}
+
+.shape {}
