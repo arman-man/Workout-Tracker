@@ -3,7 +3,7 @@ Designed and implemented a full-stack web application that allows users to track
 
 Front-end: React.js, HTML, CSS.
 
-Back-end: Express.js, Node.js, MongoDB, REST API.
+Back-end: Express.js, Node.js, MongoDB, RESTful API.
 
 ## Installation
 ```npm install``` in the root directory of the Restful-API and React-UI folders
