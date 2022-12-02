@@ -12,6 +12,7 @@ body {
     color: rgb(62, 62, 62);
     background-image: url('body_bk_img.jpg');
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Solway';
     font-size: 1em;
     text-align: center;
@@ -66,9 +67,11 @@ main {}
 section {}
 
 article {
-    padding: 1em 1em 1em 1em;
-    margin-bottom: 5.3em;
-
+    padding-top: 1em;
+    padding-bottom: 6.3em;
+    margin-left: 15em;
+    margin-right: 15em;
+    background-color: white;
 }
 
 #topic1 {}
@@ -89,7 +92,6 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 3em;
 }
 
 /*  -----  Typography  ----- */
@@ -173,6 +175,7 @@ del {}
 ins {}
 
 /*  ----- Table ----- */
+
 table {
     margin: 0 auto;
     padding-bottom: 4em;
@@ -212,13 +215,15 @@ data {}
 
 datalist {}
 
+
 /*  ----- Form ----- */
 form {}
 
+
 fieldset {
     margin-top: 2em;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 12em;
+    margin-right: 12em;
 }
 
 legend {
@@ -227,7 +232,6 @@ legend {
 }
 
 label {
-    font-size: 1em;
     display: block;
     margin-top: 0.5em;
 }
@@ -237,6 +241,7 @@ button {
     margin: 0.5em;
     cursor: pointer;
 }
+
 
 input {
     padding: 0.5em;
@@ -255,18 +260,17 @@ select {
     margin: 0.5em;
 }
 
+
 optgroup {}
 
-option {
-    padding: 0.5em;
-    margin: 0.5em;
-}
+
+option {}
+
 
 textarea {}
 
 #unit {
     cursor: pointer;
-
 }
 
 ::-webkit-calendar-picker-indicator {
