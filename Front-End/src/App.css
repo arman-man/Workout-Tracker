@@ -1,0 +1,365 @@
+/*   ----- Imports  -----  */
+
+/* Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Roboto);
+
+/* npm install modern-normalize */
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {
+    /* Can alternatively define in html {} or :root {} */
+    color: white;
+    background-image: url("gym_background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto';
+    font-size: 1.05em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----- Anchors ----- Text links */
+a {}
+
+a:link {}
+
+a:hover {}
+
+a:active {}
+
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+    background-color: #000000ab;
+    padding: 1.1em;
+    padding-right: 7em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0.9em;
+    font-size: 0.95em;
+    padding: 1.2em;
+    padding-top: 1.3em;
+}
+
+#page1:hover,
+#page2:hover {
+    background-color: #7d7d7d77;
+    cursor: pointer;
+}
+
+#siteName {
+    margin-right: 17em;
+    font-size: 1.1em;
+}
+
+#icon {
+    margin-right: 0.5em;
+}
+
+#icon:hover {
+    cursor: default;
+}
+
+#icon svg:hover {
+    cursor: default;
+}
+
+#icon path:hover {
+    cursor: default;
+}
+
+#description {
+    padding: 1.5em 0em 1.5em 0em;
+    font-size: 1.7em;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+    background-color: rgba(0, 0, 0, 0.610);
+
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.610);
+    padding-bottom: 8.59em;
+}
+
+main {}
+
+section {}
+
+nav a {}
+
+
+
+#topic1 {}
+
+#topic2 {}
+
+#gallery1 {}
+
+#gallery2 {}
+
+div {}
+
+aside {}
+
+/*  -----  Typography  ----- */
+p {}
+
+br {}
+
+ol,
+ul,
+dl {}
+
+li {}
+
+dt {}
+
+dd {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+
+/* Define consistant font family.*/
+h1 {}
+
+h2 {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+abbr {}
+
+acronym {}
+
+address {}
+
+blockquote {}
+
+q {}
+
+cite {}
+
+em {}
+
+hr {}
+
+mark {}
+
+s {}
+
+span {}
+
+strong {}
+
+sub {}
+
+sup {}
+
+time {}
+
+/*  ----- Coding or instructional typography ----- */
+pre {}
+
+code {}
+
+kbd {}
+
+samp {}
+
+var {}
+
+del {}
+
+ins {}
+
+/*  ----- Table ----- */
+
+table {
+    margin: 3em auto;
+    padding-bottom: 4em;
+}
+
+caption {
+    padding: 2em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+}
+
+thead {}
+
+tbody {}
+
+tfoot {}
+
+tr {}
+
+tr:nth-child(even) {}
+
+th {
+    padding: 0 1em 1em 1em;
+    font-size: 1.1em;
+}
+
+td {
+    padding-bottom: 1em;
+    font-size: 0.95em;
+}
+
+td:nth-child(1) {}
+
+colgroup {}
+
+data {}
+
+datalist {}
+
+
+/*  ----- Form ----- */
+form {
+    margin-top: 3em;
+}
+
+
+fieldset {
+    margin-top: 2em;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    margin-top: 0.5em;
+}
+
+button {
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+
+input {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+output {}
+
+meter {}
+
+progress {}
+
+
+select {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+
+optgroup {}
+
+
+option {}
+
+
+textarea {}
+
+#unit {
+    cursor: pointer;
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+/* ----- Media ----- */
+figure {}
+
+figcaption {}
+
+img {}
+
+svg {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+picture {}
+
+source {}
+
+iframe {}
+
+video {}
+
+audio {}
+
+embed {}
+
+object {}
+
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.floatright {}
+
+.floatleft {}
+
+.center-middle {}
+
+.ten {}
+
+.twenty {}
+
+.thirty {}
+
+.forty {}
+
+.fifty {}
+
+.sixty {}
+
+.seventy {}
+
+.eighty {}
+
+.radius {}
+
+.circle {}
+
+.boxshadow {}
+
+.tshadow {}
+
+.gradient {}
+
+.shape {}
