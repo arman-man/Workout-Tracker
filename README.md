@@ -1,7 +1,7 @@
 # Workout-Tracker
 Created a full-stack application that allows users to track their workouts.
 
-Implemented the front-end using React.js, HTML, CSS.
+Implemented the front-end using React.js, HTML/CSS.
 
 Implemented the back-end using Node.js, Express.js, MongoDB.
 
