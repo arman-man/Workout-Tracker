@@ -1,9 +1,9 @@
 # Workout-Tracker
-Created a full-stack application that allows users to track their workouts.
+Developed a full-stack application that enables users to record their workout data.
 
-Implemented a visually engaging and responsive user interface utilizing React.js, HTML, and CSS.
+Created a responsive user interface using React.js, HTML, and CSS.
 
-Developed a robust back-end system by implementing a RESTful API with Node.js and Express.js, seamlessly integrating it with a scalable NoSQL/MongoDB database server.
+Implemented a RESTful API using Node.js and Express.js, with a MongoDB database.
 
 ## Installation & Running
 ```npm install``` in the root directory of the Front-End and Back-End folders.
