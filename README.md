@@ -1,5 +1,5 @@
 # Workout-Tracker
-Developed a full-stack application that enables users to record their workout data.
+Developed an application that enables users to record their workout data.
 
 Created a responsive user interface using React.js, HTML, and CSS.
 
