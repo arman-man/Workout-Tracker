@@ -3,7 +3,7 @@ Developed an application that enables users to record their workout data.
 
 Created a responsive user interface using React.js, HTML, and CSS.
 
-Implemented a RESTful API using Node.js and Express.js, with a MongoDB database.
+Implemented a RESTful API with Node.js and Express.js, backed by MongoDB.
 
 ## Installation & Running
 ```npm install``` in the root directory of the Front-End and Back-End folders.
