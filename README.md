@@ -1,7 +1,7 @@
 # Workout-Tracker
 Developed a web application for recording workout data.
 
-Implemented a responsive user interface using React.js, HTML, and CSS, and developed a RESTful API with Node.js and Express.js, backed by MongoDB.
+Implemented a RESTful API with Node.js and Express.js, backed by MongoDB, and created a responsive user interface using React.js, HTML, and CSS.
 
 ## Installation & Running
 ```npm install``` in the root directory of the Front-End and Back-End folders.
