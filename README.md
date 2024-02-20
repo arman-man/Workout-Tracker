@@ -1,5 +1,5 @@
 # Workout-Tracker
-Developed a web application for recording workout data.
+Developed a web application to facilitate workout data tracking, featuring a user-friendly interface that promotes user engagement and usability
 
 Implemented a RESTful API with Node.js and Express.js, backed by MongoDB, and created a responsive user interface using React.js, HTML, and CSS.
 
